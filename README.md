@@ -69,6 +69,7 @@ python manage.py runserver
 Visit 👉 http://127.0.0.1:8000
 
 
+![image alt](https://github.com/Yogesh-Yannawar/Weather-App-Django-/blob/3948ba4019ff2ce1a9e930d00cb660501fb44abd/Screenshot%202025-09-16%20215815.png)
 
 
 
