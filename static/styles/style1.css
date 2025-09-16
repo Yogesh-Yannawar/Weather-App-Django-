@@ -1,0 +1,97 @@
+/* Reset some defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Full-page background */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://images.unsplash.com/photo-1502082553048-f009c37129b9") 
+                no-repeat center center/cover;
+}
+
+/* Transparent glassy container */
+.container {
+    background: rgba(255, 255, 255, 0.15);   
+    border-radius: 16px;
+    padding: 30px;
+    width: 500px;
+    text-align: center;
+    backdrop-filter: blur(10px);  /* frosted glass effect */
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+/* Title */
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* Input and button */
+form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form input {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width: 60%;
+    font-size: 14px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #00aaff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+form button:hover {
+    background: #008ecc;
+}
+
+/* Weather section */
+.weather {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.left h2 {
+    font-size: 36px;
+}
+
+.left h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.right {
+    text-align: center;
+}
+
+.condition p {
+    margin-top: 5px;
+    font-size: 14px;
+}
